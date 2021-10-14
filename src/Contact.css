@@ -1,0 +1,56 @@
+html{
+  font-size: 75%;
+}
+
+.contactusSection{
+    background-color: #9bacb8;
+    color:white ;
+    top: 0;
+z-index: 1;
+    display: flex;
+    flex-direction: column;
+    padding: .6rem 30.0rem;
+    height: 22.5rem;
+    justify-content: flex-end;
+    align-items: center;
+    
+    }
+    
+    .contactusSection::before {
+    content: "";
+    
+    /* background: url("./logo4.svg") no-repeat
+      center center/cover; */
+    position: absolute;
+    top: 0rem;
+    left: 0rem;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.9;
+    }
+    .contactusSection > h1 {
+      
+    color:#7d8d98;
+    text-align: center;
+    }
+    .contactusSection  li  {
+      list-style: none;
+      margin: 1.2rem 2.0rem;
+    color: #143d59;
+    text-align: center;
+    font-size: 1.1rem;
+    font-family: "Barlow", sans-serif;
+    }
+    @media (max-width:998px) {
+      html{
+          font-size: 55%;
+      }
+      
+  }
+  @media (max-width:768px) {
+      html{
+          font-size: 45%;
+      }
+      
+  }
